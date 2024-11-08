@@ -7,3 +7,13 @@ The work done on different branches will not show up on the main branch until yo
 You can use branches to experiment and make edits before committing them to main
 When you create a branch off the main branch, you're making a copy, or snapshot, of main as it was at that point in time. 
 If someone else made changes to the main branch while you were working on your branch, you could pull in those updates.
+
+Above is a copy or snapshot of the main branch's readme.md. Now we are in this copied feature/version branch called readme.md-edits 
+and added this line with the code editor. This will be followed by clicking Commit changes. And...
+These changes will be made only to the README file on your readme-edits branch, so now this branch contains content that's different from main.
+
+When you open a pull request, you're proposing your changes and requesting that someone review and 
+pull in your contribution and merge them into their branch. Pull requests show diffs, or differences, of the content from both branches. 
+The changes, additions, and subtractions are shown in different colors.
+
+As soon as you make a commit, you can open a pull request and start a discussion, even before the code is finished.
